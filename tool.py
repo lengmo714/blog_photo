@@ -168,7 +168,7 @@ def git_operation():
     '''
     os.system('git add --all')
     os.system('git commit -m "add photos"')
-    os.system('git push origin master')
+    os.system('git push')
 
 
 def bubble(bubbleList):
